@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 100;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+}
+
+.left-content {
+    max-width: 450px;
+}
+
+.left-content h1 {
+    font-size: 55px;
+    font-weight: 750;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.left-content p {
+    font-size: 26px;
+    color: #0d0d0f;
+}
+
+.right-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.right-content input[type="text"],
+.right-content input[type="password"] {
+    width: 92%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.right-content input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.right-content input[type="submit"]:hover {
+    background-color: #166fe5;
+}
+
+.right-content a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;   
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.create-account {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.create-account a {
+    display: inline-block;
+    padding: 15px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    margin-top: 20px;   
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    right: 195px;
+    top: 430px
+}
+
+.create-page a {
+    color: #0d0d0f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
